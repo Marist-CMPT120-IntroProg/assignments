@@ -76,7 +76,7 @@ Here's how you can get started:
         verb1 = input("A verb: ")
 
         print("YOUR STORY:")
-        print("Once upon a time, a " + noun + " wanted to " + verb + " among the stars.")
+        print("Once upon a time, a " + noun1 + " wanted to " + verb1 + " among the stars.")
     main()
     ```
 4. **Test your program.** From the “Run” menu, select “Run Module” to execute your Python script. You should see a new REPL window appear and the “Hello, instructor!” message will be displayed. If you encounter an error, then try to figure out what went wrong and fix it. Move on when you Hello program is working correctly.
