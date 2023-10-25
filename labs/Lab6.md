@@ -71,7 +71,7 @@ def play(board):
   row, col = 0, 0
   while moves_remain(board):
     show_board(board)
-    row, col = get_move()
+    row, col = get_move(board)
     make_move(board, row, col)
     is_gameover = check_gameover(board, row, col)
     if is_gameover:
