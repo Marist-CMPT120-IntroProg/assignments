@@ -28,9 +28,9 @@ What are the fundamentals tasks involved in the Tic Tac Toe game?
     ________________________________________|_______________________________________________
    /                                     /                                  \               \
 [setup_board]                         [play]                            [show_intro]   [show_outro]
-                       _________________|_______________________
-                      /             /           \               \
-                [show_board]   [get_move]   [make_move]   [check_game_over]
+        ________________________________|_______________________
+       /              /             /           \               \
+[moves_remain]  [show_board]   [get_move]   [make_move]   [check_game_over]
                      |             |                 __________|_______________________
                      |             |                /          |           \           \
                 [show_row]    [check_move]    [check_row] [check_col] [check_diag] [check_tie]
